@@ -5,6 +5,7 @@ class LinkedList:
 #1->2->3->3->4->5->6->6->7 --> 1->2->3->4->5->6->7
 #currentNode
 #NextDistinctNode
+#o(n)time | o(1)space 
 def reomveDupsInLinkedList(linkedList):
   currentNode = linkedList
   while currentNode is not None:
